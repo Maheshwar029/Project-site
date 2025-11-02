@@ -1,0 +1,279 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     font-family: gilroy;
+     /* background-color: #f4f4f4; */
+     color: #333;
+     scroll-behavior: smooth;
+     overflow-x: hidden;
+     z-index: 1;
+}
+
+header {
+     background-color: transparent;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     z-index: 1000;
+     padding: 10px 0;
+     box-shadow: none;
+}
+
+.navbar {
+     background: transparent;
+     color: #333;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 10px 20px;
+     font-size: 1.2rem;
+     font-weight: bold;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+}
+
+.category-links ul {
+     display: flex;
+     gap: 15px;
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     position: relative;
+     z-index: 1;
+     background-color: transparent;
+}
+.category-links ul li {
+     position: relative;
+     z-index: 1;
+     background-color: transparent;
+}
+
+.category-links ul li a {
+     text-decoration: none;
+     color: #333;
+     font-weight: 800;
+     background-color: transparent;
+     transition: color 0.3s ease;
+     border: 1px solid transparent;
+     border-radius: 5px;
+     position: relative;
+     z-index: 1;
+}
+
+.user-links ul {
+     display: flex;
+     gap: 18px;
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     position: relative;
+     z-index: 1;
+     background-color: transparent;
+}
+.user-links ul li {
+     position: relative;
+     z-index: 1;
+     background-color: transparent;
+}
+.user-links ul li a {
+     text-decoration: none;
+     color: #333;
+     font-weight: 900;
+     background-color: transparent;
+     transition: color 0.3s ease;
+     border: 1px solid transparent;
+     position: relative;
+     z-index: 1;
+     border-radius: 5px;
+}
+
+i {
+     font-size: 1.5rem;
+}
+
+.page1 {
+     height: 100vh;
+     width: 100vw;
+     background-color: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.first {
+     font-family: gilroy;
+     position: absolute;
+     /* top: 10%;
+     left: 50%; */
+     font-size: 18vmin;
+     /* transform: translate(-50%, -50%); */
+     color: #333;
+     font-weight: 900;
+     text-align: center;
+     white-space: nowrap;
+}
+
+.page2 {
+     height: 100vh;
+     width: 100vw;
+     background-color: aliceblue;
+}
+
+.featured-product {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 200px 0;
+}
+
+.product-list {
+     display: flex;
+     gap: 40px;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin-top: 30px;
+}
+
+img {
+     width: 200px;
+     height: 250px;
+     object-fit: cover;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     transition: transform 0.3s ease;
+}
+
+.product-list .products:hover {
+     transform: scale(1.05);
+}
+
+h2 {
+     font-size: 1rem;
+     margin: 10px 0;
+     color: #333;
+     max-width: 200px;
+
+
+}
+p {
+     font-size: .5rem;
+     color: #666;
+     max-width: 200px;
+}
+
+.second {
+     font-family: gilroy;
+     font-size: 2.5rem;
+}
+
+.page3 {
+     height: 60vh;
+     width: 100vw;
+     background-color: antiquewhite;
+}
+
+.banner {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100%;
+     width: 100%;
+     position: relative;
+     overflow: hidden;
+     margin: 0px 50px;
+}
+
+.banner img {
+     width: 50%;
+     height: 60vh;
+     object-fit: cover;
+     opacity: 0.9;
+}
+
+.banner-text {
+     font-family: gilroy;
+     font-size: 1.2rem;
+     color: #333;
+     width: 50%;
+     font-weight: 900;
+     text-align: center;
+     white-space: nowrap;
+
+}
+
+.page4 {
+     height: 100vh;
+     width: 100vw;
+     background-color: aliceblue;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.collections {
+     padding: 200px 0;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.third {
+     font-family: gilroy;
+     font-size: 2.5rem;
+
+}
+
+.page5 {
+     height: 100vh;
+     width: 100vw;
+     background-color: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.four {
+     font-family: gilroy;
+     font-size: 2.5rem;
+}
+
+.reviews {
+     padding: 180px 0;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.review-list {
+     display: flex;
+     gap: 100px;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     margin-top: 100px;
+
+}
+
+h3 {
+     font-size: 6rem;
+     margin: 10px 0;
+     color: #333;
+     max-width: 200px;
+}
+.review-list p {
+     font-size: 1.8rem;
+     color: #666;
+     max-width: 400px;
+     
+}
+
+.rev {
+     font-size: 1.5rem;
+     color: #333;
+     font-weight: 800;
+     margin-top: 20px;
+}
